@@ -1,0 +1,80 @@
+<html> 
+    <head> 
+        <title>Consulta de Reserva</title> 
+        <style>
+            body {
+              font-family: Arial, sans-serif;
+              line-height: 1.6;
+              margin: 0;
+              padding: 0;
+            }
+        
+            header {
+              background-color: #333;
+              color: #fff;
+              padding: 1rem;
+            }
+        
+            header h1 {
+              margin: 0;
+            }
+        
+            nav ul {
+              list-style: none;
+              padding: 0;
+            }
+        
+            nav ul li {
+              display: inline;
+              margin-right: 20px;
+            }
+        
+            nav ul li a {
+              color: #fff;
+              text-decoration: none;
+            }
+        
+            main {
+              padding: 20px;
+            }
+
+          </style>
+    </head> <body>
+        <header>
+            <h1>Agencia de Viajes</h1>
+            <nav>
+              <ul>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="insertar_vueloForm.jsp">Insertar Vuelo JSP</a></li>
+                <li><a href="reservaForm.html">Reservas JSP</a></li>
+              </ul>
+            </nav>
+          </header>
+          <main> 
+        <h1>Consulta de Reserva</h1> 
+        <form action="consultaReserva.jsp" method="post"> 
+            <table> 
+                <tr> 
+                    <td>DNI:</td> 
+                    <td><input type="text" name="dni"></td> 
+                </tr> 
+                <tr> 
+                    <td>Ciudad de Origen:</td> 
+                    <td><input type="text" name="ciudadOrigen"></td> 
+                </tr> 
+                <tr> 
+                    <td></td> 
+                    <td><input type="submit" value="Buscar">
+                    </td> 
+                </tr> 
+            </table> 
+        </form> 
+    </main>
+
+</body>
+
+
+<footer>
+  <p>&copy; 2024 Agencia de Viajes</p>
+</footer>
+</html>
