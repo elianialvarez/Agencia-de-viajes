@@ -1,0 +1,16 @@
+ @model Compania
+@{
+ViewData["Title"] = "Insertar Compania";
+}
+<h1>@ViewData["Title"]</h1>
+<div class="text-center">
+<h2>Introduce el nombre de la compañía:</h2>
+
+<form asp-controller="Home" asp-action="AñadirCompania">
+    <div>
+        <label asp-for="nombre" class="form-label">Nombre de la compañía</label>
+        <input type="text" asp-for="nombre" class="form-control" placeholder="Nombre..." />
+    </div>
+    <button type="submit" class="btn btn-primary">Insertar Compañía</button>
+</form>
+</div>

@@ -1,0 +1,38 @@
+﻿
+@model IEnumerable<Ciudad>
+@{
+    ViewData["Title"] = "Home Page";
+}
+<style>
+.table-container {
+  text-align: center;
+}
+
+table {
+  display: inline-table;
+}
+</style>
+<div class="text-center">
+    <h1 class="display-4">LISTADO DE CIUDADES</h1>
+
+<br/><br/>
+@if (Model is not null){
+    <div class="table-container">
+<table>
+    <tr>
+    <th>ID Ciudad</th>
+    <th>Ciudad</th>
+    <th>Tasa de Aeropuerto</th>
+    </tr>
+    
+    @foreach(var ciudad in Model){
+        <tr>
+        <td>@ciudad.idciudad</td>
+        <td>@ciudad.ciudad</td>
+        <td>@ciudad.tasa_aeropuerto</td>
+        </tr>
+    }
+</table>
+</div>
+}
+</div>
