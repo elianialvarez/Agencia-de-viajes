@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Mc/D0UOVgmnv6o976qWoy+rKVCSvvndy9EVECfoNPfM/1N1BW+Yb2OLsHY8a5WYGc7gua2UXAiDGlHaKg12Ewg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\juan.morenom\\Desktop\\ASP2024\\ASP2024.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\juan.morenom\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
+    "C:\\Users\\juan.morenom\\.nuget\\packages\\firebirdsql.data.firebirdclient\\10.0.0\\firebirdsql.data.firebirdclient.10.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

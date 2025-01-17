@@ -1,0 +1,57 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "ASP2024/1.0.0": {
+        "dependencies": {
+          "Dapper": "2.1.35",
+          "FirebirdSql.Data.FirebirdClient": "10.0.0"
+        },
+        "runtime": {
+          "ASP2024.dll": {}
+        }
+      },
+      "Dapper/2.1.35": {
+        "runtime": {
+          "lib/net7.0/Dapper.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.1.35.13827"
+          }
+        }
+      },
+      "FirebirdSql.Data.FirebirdClient/10.0.0": {
+        "runtime": {
+          "lib/net7.0/FirebirdSql.Data.FirebirdClient.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ASP2024/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Dapper/2.1.35": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YKRwjVfrG7GYOovlGyQoMvr1/IJdn+7QzNXJxyMh0YfFF5yvDmTYaJOVYWsckreNjGsGSEtrMTpnzxTUq/tZQw==",
+      "path": "dapper/2.1.35",
+      "hashPath": "dapper.2.1.35.nupkg.sha512"
+    },
+    "FirebirdSql.Data.FirebirdClient/10.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-x+JkSd6TeL9zUXDbi5C0NPeZ1ejo5sw3G9nhoxvVGXhaU399agYgO5RXtYRmcS4GkeA57Q9sThe5pFL2knSdXQ==",
+      "path": "firebirdsql.data.firebirdclient/10.0.0",
+      "hashPath": "firebirdsql.data.firebirdclient.10.0.0.nupkg.sha512"
+    }
+  }
+}
